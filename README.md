@@ -2,6 +2,11 @@
 
 This project provides a comprehensive analysis of Walmart product data, combining information from two distinct datasets: Walmart E-commerce product listings and Walmart Grocery product data. The goal is to clean, integrate, and analyze this data to uncover insights into product pricing, categories, and other relevant attributes. Data is analyzed to find the most popular brand(s), departments and average prices in different departments as well. 
 
+I've also created a couple Dashboards that can be accessed by the following links:
+https://public.tableau.com/app/profile/angel.thompson1715/viz/PriceProject/Dashboard1#1
+https://public.tableau.com/app/profile/angel.thompson1715/viz/PriceProject/Dashboard2#1
+
+
 ## Data Sources
 Two data sources were used from Kaggle website. Both are in CSV format. 
 - [walmart.csv](https://www.kaggle.com/datasets/hikageshinomori/walmart-e-commerce-product-data)
