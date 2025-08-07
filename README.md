@@ -23,17 +23,17 @@ The following is a guide to running the project files locally:
 ## Data Dictionary 
 This provides a comprehensive data dictionary for variables used in the merged and cleaned data from  both walmart.csv and  WMT_Grocery_202209.csv data sets
 
-Product_NAME - The full name of the product.
-URL - The URL link to the product page on Walmart's website.
-BRAND - The brand name of the product.
-SKU - The Stock Keeping Unit, a unique identifier for the product.
-DEPARTMENT - The main department in which the product is categorized.
-PRICE - The current selling price of the product.
-CATEGORY - The first sub-category of the product.
-SUBCATEGORY - The second sub-category of the product.
-PRODUCT_SIZE - The size or quantity of the product (e.g., "12 oz", "Large").
-SCRAPED_AT - The date and time when the product data was collected.
-PRICE_TIER - New column created to sort products into low, medium, and high price tiers
+- Product_NAME - The full name of the product.
+- URL - The URL link to the product page on Walmart's website.
+- BRAND - The brand name of the product.
+- SKU - The Stock Keeping Unit, a unique identifier for the product.
+- DEPARTMENT - The main department in which the product is categorized.
+- PRICE - The current selling price of the product.
+- CATEGORY - The first sub-category of the product.
+- SUBCATEGORY - The second sub-category of the product.
+- PRODUCT_SIZE - The size or quantity of the product (e.g., "12 oz", "Large").
+- SCRAPED_AT - The date and time when the product data was collected.
+- PRICE_TIER - New column created to sort products into low, medium, and high price tiers
 
 
 ## Data Summary
