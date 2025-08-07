@@ -12,6 +12,16 @@ Two data sources were used from Kaggle website. Both are in CSV format.
 - [walmart.csv](https://www.kaggle.com/datasets/hikageshinomori/walmart-e-commerce-product-data)
 - [WMT_Grocery_202209.csv](https://www.kaggle.com/datasets/thedevastator/product-prices-and-sizes-from-walmart-grocery)
 
+## Tools Used
+    • Pandas: This is a powerful open-source data analysis and manipulation library for Python. Its primary role in this project is:
+        ◦ Data Loading: Reading the CSV files (walmart.csv and WMT_Grocery_202209.csv) into DataFrame objects.
+        ◦ Data Cleaning: Converting data types and renaming columns.
+        ◦ Data Manipulation: Selecting relevant columns and performing operations to create new features.
+        ◦ Data Inspection: Providing methods to view data (e.g., head(), dtypes, isnull().sum()).
+    • SQL: is utilized to extract raw data from databases. This involves writing queries to select, filter, and join tables to obtain the necessary dataset for analysis and visualizations.
+    • Seaborn: This was used to create aesthetically pleasing and informative statistical graphics for exploratory data analysis (EDA). 
+
+
 
 ### Running the Program:
 This project was created with Python3.13.2
