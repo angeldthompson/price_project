@@ -21,7 +21,13 @@ Two data sources were used from Kaggle website. Both are in CSV format. These mu
     • SQL: is utilized to extract raw data from databases. This involves writing queries to select, filter, and join tables to obtain the necessary dataset for analysis and visualizations.
     • Seaborn: This was used to create aesthetically pleasing and informative statistical graphics for exploratory data analysis (EDA). 
 
+## Data Summary
 
+I aimed to find the most popular brands and products and look at the difference in pricing of products as well. I decided to remove unwanted columns at the beginning and instead of filling in null values, I decided to leave them as is to not skew the values with averages that could have thrown the data way off since there were multiple prices in different categories, etc. 
+
+What came as no surprise was that Great Value was the most popular brand, accounting for over 50% of the products. Even though the Pantry department was found to be the one with the most amount of products, Alcohol was the department with the highest total value. Pantry did come in second though. 
+
+I created a couple Tableau Dashboards where you can see visualizations showing average price per department, average price per brand, total spent on top products per department, top 10 brands per category, and top 10 most popular brands. In my Jupyter notebook, I have visualizations showing total products per department, top 10 most popular brands, top 10 brands by average price, price distribution by department, top 10 most expensive products, total value by department, and top 5 subcategories by average price. I did notice with the top 10 most expensive products that there is a Hi Chew candy showing as the 2nd most expensive product, so that price must be entered incorrectly. 
 
 ### Running the Program:
 This project was created with Python3.13.2
@@ -53,9 +59,17 @@ This provides a comprehensive data dictionary for variables used in the merged a
 - PRICE_TIER - New column created to sort products into low, medium, and high price tiers
 
 
-## Data Summary
-I decided to remove unwanted columns at the beginning and instead of filling in null values, I decided to leave them as is to not skew the values with averages that could have thrown the data way off since there were multiple prices in different categories, etc. 
+## Project Summary
 
-What came as no surprise was that Great Value was the most popular brand, accounting for over 50% of the products. Even though the Pantry department was found to be the one with the most amount of products, Alcohol was the department with the highest total value. Pantry did come in second though. 
+I used two Walmart data sets for my data analysis as reported above. I looked into finding the most popular brands, products and price variances. I found ‘Great Value’ brand to be the most popular, accounting for over 50% of the products in the data. The average price for ‘Great Value’ branded products was $3.89. The ‘Pantry’ department was the most popular department based on quantity of products. However, the ‘Alcohol’ department was found to have the highest total value. 
 
-I created a couple Tableau Dashboards where you can see visualizations showing average price per department, average price per brand, total spent on top products per department, top 10 brands per category, and top 10 most popular brands. In my Jupyter notebook, I have visualizations showing total products per department, top 10 most popular brands, top 10 brands by average price, price distribution by department, top 10 most expensive products, total value by department, and top 5 subcategories by average price. I did notice with the top 10 most expensive products that there is a Hi Chew candy showing as the 2nd most expensive product, so that price must be entered incorrectly. 
+I used Python in a Jupyter notebook with pandas and SQL to clean and analyze the data. I was able to merge my two data sets and then create SQL tables to make different visualizations. I also used Tableau to create a couple visualization dashboards as listed below. 
+
+Here are links to my Tableau Dashboards where I created several visualizations. There is one showing the average price per department where we can see that the department ‘Industrial & Scientific’ has the highest average price of $51.84. I also have visualizations showing the total spent on top products per department where the amount of products shown per department is changeable, the average price per brand, the top 10 brands per category, and the top 10 most popular brands. 
+
+[Dashboard 1](https://public.tableau.com/app/profile/angel.thompson1715/viz/PriceProject/Dashboard1#1)
+[Dashboard 2](https://public.tableau.com/app/profile/angel.thompson1715/viz/PriceProject/Dashboard2#1)
+
+One limitation I found within the data was that with the top 10 most expensive products that there is a Hi Chew candy showing as the 2nd most expensive product, so I concluded that price must be entered incorrectly. I did decide to leave the data in to show that sometimes data could be entered incorrectly and we might not realize it unless we know what to expect for certain data. I only realized it because I know that candy shouldn’t be as expensive as it is listed in the data. 
+
+In conclusion, we can see how data can be manipulated and used to show the data in an easy to read visual graph. It is important to analyze the data to see if there is data that needs to be removed to not skew the results too much unless we are wanting to see the outliers for analytical purposes. It is also crucial to know the data you are dealing with in order to point out something that is throwing off the data and being reported incorrectly, such as in my example of the Hi Chew candy. 
